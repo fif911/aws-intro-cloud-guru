@@ -1,0 +1,62 @@
+# Security and Identity
+
+## Available services and their categories
+
+### Data Protection
+
+* Amazon Macie - Discover and protect your sensitive data
+* AWS Key Management Service - Store and manage encryption keys
+* AWS CloudHSM - Hardware based key storage and regulatory compliance
+* AWS Certificate Manager - Provision, manage and deploy SSL and TLS security certificates
+* AWS Secrets Manager - Rotate, manage and retrieve secrets (passwords)
+
+### Infrastructure Protection
+
+* AWS Shield - Denial of service protection
+* AWS Web Application Firewall (WAF) - Filter malicious website traffic
+* AWS Firewall Manager - Centrally manage firewall rules
+
+### Thread Detection
+
+* Amazon GuardDuty - Automatically detect threats
+* Amazon Inspector - Analyze application security
+* AWS Config - Record and evaluate configurations of your AWS resources
+* AWS Cloud Trail - Track use activity and API usage
+
+### Identity Management
+
+* AWS Identity and Access Management (IAM) - Securely manage access to AWS accounts and resources (who can manage what)
+* AWS Simple Sign-on - Implement cloud single sing-on
+* Amazon Cognito - Manage identity inside your application
+* AWS Directory Service - Implement and manage Microsoft Active Directory
+* AWS Organizations - Centrally govern multiple AWS accounts in one place
+
+## IAM
+
+### Roles
+
+IAM Role is additional layer of security to be able to access some component within system
+(instead of access token or user/password)
+E.g. Your webserver can have role that will allow it and only it to get the data from DB
+
+- Roles also allow for users from different AWS accounts to use resources from your account
+
+# Users
+Each user has a Amazon Resource Name (ARN) - unique identifier
+
+## Secrets Manager
+
+- Stores passwords, token and key
+- Rotate(change) password at regular interval in the service where it is used and subsequently in your code when you get
+  it
+
+## Directory Service
+
+Needed for organizations that manage employees laptops.
+Has options for:
+
+* Managed Microsoft Active Directory
+* Managed Simple Active Directory
+* AD connector (allows on-premise users to log in into AWS application with their Active Directory credentials)
+* Distributed service (more reliable) with automatic fail-over
+* Compatible with other AWS services (users can log in with their credentials into other AWS services)
