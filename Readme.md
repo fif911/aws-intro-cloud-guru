@@ -2,11 +2,28 @@
 
 ## Learning material
 
+### Core
+
 * [A Cloud Guru AWS **Vision notes**](https://acloudguru.visme.co/view/mxz10wwn-s01-l00-table-of-contents)
 * [AWS Cloud Practitioner (CLF-C01) Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-cloud-practitioner/AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
 * [Course presentation](https://acloudguru-content-attachment-production.s3-accelerate.amazonaws.com/1676052837832-1036%20PDF%20Export%202_10_22.pdf)
 * [Overview of Amazon
   Web Services **AWS Whitepaper**](https://docs.aws.amazon.com/pdfs/whitepapers/latest/aws-overview/aws-overview.pdf)
+
+### General Basic
+
+* [AWS Terminology Cheat Sheet](https://acloudguru.com/blog/engineering/your-aws-terminology-cheat-sheet)
+
+## Basics
+
+#### Benefits of cloud computing
+
+High availability, elasticity, agility, and durability (data protection).
+
+#### Costs control
+
+* Capital Expenditures (CapEx) - upfront purchases toward fixed assets (equipment, property, software).
+* Operating Expenses (OpEx) - funds used to run day-to-day operations (R&D, salaries, rent, marketing)
 
 ### Main services and their purpose
 
@@ -64,24 +81,35 @@ AWS Lenses and link to AWS 80-page documents for each:
   and [IoT Lens Checklist](https://docs.aws.amazon.com/wellarchitected/latest/iot-lens-checklist/overview.html), we
   focus on **best practices for architecting your IoT applications** on AWS.
 
-* In the [SAP Lens](https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/sap-lens.html), we describe a collection of customer-proven **design principles and best practices for ensuring SAP
+* In the [SAP Lens](https://docs.aws.amazon.com/wellarchitected/latest/sap-lens/sap-lens.html), we describe a collection
+  of customer-proven **design principles and best practices for ensuring SAP
   workloads** on AWS are well-architected.
 
-* In the [Games Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/games-industry-lens/games-industry-lens.html), we focus on **designing, architecting, and deploying your games workloads** on AWS.
+* In
+  the [Games Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/games-industry-lens/games-industry-lens.html),
+  we focus on **designing, architecting, and deploying your games workloads** on AWS.
 
-* In the [Streaming Media Lens](https://docs.aws.amazon.com/wellarchitected/latest/streaming-media-lens/streaming-media-lens.html), we focus on the **best practices for architecting and improving your streaming media
+* In
+  the [Streaming Media Lens](https://docs.aws.amazon.com/wellarchitected/latest/streaming-media-lens/streaming-media-lens.html),
+  we focus on the **best practices for architecting and improving your streaming media
   workloads** on AWS.
 
-* In the [Healthcare Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/healthcare-industry-lens/healthcare-industry-lens.html), we focus on how to **design, deploy, and manage your healthcare workloads**.
+* In
+  the [Healthcare Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/healthcare-industry-lens/healthcare-industry-lens.html),
+  we focus on how to **design, deploy, and manage your healthcare workloads**.
 
-* In the [Financial Services Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/financial-services-industry-lens/welcome.html), we focus on **best practices for architecting your Financial Services
+* In
+  the [Financial Services Industry Lens](https://docs.aws.amazon.com/wellarchitected/latest/financial-services-industry-lens/welcome.html),
+  we focus on **best practices for architecting your Financial Services
   Industry
   workloads** on AWS.
 
-* In the [HPC Lens](https://docs.aws.amazon.com/wellarchitected/latest/high-performance-computing-lens/welcome.html), we focus on best practices for architecting your **High Performance Computing (HPC) workloads** on
+* In the [HPC Lens](https://docs.aws.amazon.com/wellarchitected/latest/high-performance-computing-lens/welcome.html), we
+  focus on best practices for architecting your **High Performance Computing (HPC) workloads** on
   AWS.
 
-* In the [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/saas-lens.html), we focus on best practices for **architecting your software as a service (SaaS) workloads** on AWS.
+* In the [SaaS Lens](https://docs.aws.amazon.com/wellarchitected/latest/saas-lens/saas-lens.html), we focus on best
+  practices for **architecting your software as a service (SaaS) workloads** on AWS.
 
 ### Distribution of services
 
